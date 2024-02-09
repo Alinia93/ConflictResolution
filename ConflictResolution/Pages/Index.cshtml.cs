@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ConflictResolution.Pages
@@ -12,9 +11,10 @@ namespace ConflictResolution.Pages
             _logger = logger;
         }
 
+        public string Name { get; set; }
         public void OnGet()
         {
-
+            int id = 1;
         }
     }
 }
